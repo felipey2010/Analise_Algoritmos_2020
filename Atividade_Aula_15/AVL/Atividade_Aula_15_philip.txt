@@ -1,9 +1,20 @@
-****************************************
-ALUNO: PHILIP MAHAMA AKPANYI
-****************************************
-DISCIPLINA: ANÁLISE DE ALGORITMOS
-****************************************
+****************************************  
+ALUNO: PHILIP MAHAMA AKPANYI  
+****************************************  
+DISCIPLINA: ANÁLISE DE ALGORITMOS  
+****************************************  
+ÁRVORE AVL  
+****************************************  
+A Estrutura da árvore  
 
-LINK PARA A ATIVIDADE DE AULA 15
+typedef struct NO {  
+	int info; //inserção de números inteiros  
+	int alt; //altura da árvore  
+	struct NO *esq; //ponteiro para o valor a esquerda  
+	struct NO *dir; //ponteiro para o valor a direita  
+}NO, *ArvAVL;  
+  
+Custo de Inserção e Remoção de elementos  
+As operações de busca, inserção e remoção de elementos possuem complexidade O(log n) (no qual n é o número de elementos da árvore), que são aplicados a árvore de busca binária.  
 
-****************************************
+
