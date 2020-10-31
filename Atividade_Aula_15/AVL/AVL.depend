@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1604109343 source:d:\curso\11º semestre\analise de algoritmos\codes\avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"avl.h"
+	<time.h>
+
+1604106166 d:\curso\11º semestre\analise de algoritmos\codes\avl\avl.h
+
